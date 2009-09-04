@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* GumtreeSimpleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* GumtreeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* GumtreeSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GumtreeSimpleViewController.xib */; };
+		2899E5220DE3E06400AC0155 /* GumtreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* GumtreeSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */; };
+		28D7ACF80DDB3853001CB0EB /* GumtreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */; };
 		A708114F10502A3C00F7C8FE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A708114E10502A3C00F7C8FE /* libxml2.dylib */; };
 		A708115E10502A9B00F7C8FE /* GumtreeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A708115D10502A9B00F7C8FE /* GumtreeCategory.m */; };
 		A708116510502BD000F7C8FE /* CategoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A708116410502BD000F7C8FE /* CategoryDataController.m */; };
@@ -25,18 +25,18 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* GumtreeSimpleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeSimpleAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumtreeSimpleAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* GumtreeSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GumtreeSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3623240D0F684500981E51 /* GumtreeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumtreeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Gumtree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gumtree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* GumtreeSimpleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GumtreeSimpleViewController.xib; sourceTree = "<group>"; };
+		2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GumtreeViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeSimpleViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumtreeSimpleViewController.m; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* GumtreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumtreeViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* GumtreeSimple_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeSimple_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* GumtreeSimple-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GumtreeSimple-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Gumtree_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gumtree_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Gumtree-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gumtree-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A708114E10502A3C00F7C8FE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		A708115C10502A9B00F7C8FE /* GumtreeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GumtreeCategory.h; sourceTree = "<group>"; };
 		A708115D10502A9B00F7C8FE /* GumtreeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GumtreeCategory.m; sourceTree = "<group>"; };
@@ -68,10 +68,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* GumtreeSimpleAppDelegate.h */,
-				1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */,
+				1D3623240D0F684500981E51 /* GumtreeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* GumtreeViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* GumtreeSimple.app */,
+				1D6058910D05DD3D006BFB54 /* Gumtree.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				32CA4F630368D1EE00C91783 /* GumtreeSimple_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Gumtree_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -111,8 +111,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* GumtreeSimpleViewController.xib */,
-				8D1107310486CEB800E47090 /* GumtreeSimple-Info.plist */,
+				2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */,
+				8D1107310486CEB800E47090 /* Gumtree-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* GumtreeSimple */ = {
+		1D6058900D05DD3D006BFB54 /* Gumtree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GumtreeSimple" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Gumtree" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -175,9 +175,9 @@
 			);
 			dependencies = (
 			);
-			name = GumtreeSimple;
+			name = Gumtree;
 			productName = GumtreeSimple;
-			productReference = 1D6058910D05DD3D006BFB54 /* GumtreeSimple.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Gumtree.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -185,14 +185,14 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GumtreeSimple" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gumtree" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* GumtreeSimple */,
+				1D6058900D05DD3D006BFB54 /* Gumtree */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* GumtreeSimpleViewController.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* GumtreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* GumtreeSimpleAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* GumtreeSimpleViewController.m in Sources */,
+				1D3623260D0F684500981E51 /* GumtreeAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* GumtreeViewController.m in Sources */,
 				A73F21D9103C1B9300326BB7 /* XPathQuery.m in Sources */,
 				A73F21DA103C1B9300326BB7 /* TFHpple.m in Sources */,
 				A73F21DB103C1B9300326BB7 /* TFHppleElement.m in Sources */,
@@ -236,9 +236,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = GumtreeSimple_Prefix.pch;
-				INFOPLIST_FILE = "GumtreeSimple-Info.plist";
-				PRODUCT_NAME = GumtreeSimple;
+				GCC_PREFIX_HEADER = Gumtree_Prefix.pch;
+				INFOPLIST_FILE = "Gumtree-Info.plist";
+				PRODUCT_NAME = Gumtree;
 			};
 			name = Debug;
 		};
@@ -249,7 +249,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GumtreeSimple_Prefix.pch;
-				INFOPLIST_FILE = "GumtreeSimple-Info.plist";
+				INFOPLIST_FILE = "Gumtree-Info.plist";
 				PRODUCT_NAME = GumtreeSimple;
 			};
 			name = Release;
@@ -284,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GumtreeSimple" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Gumtree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -293,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GumtreeSimple" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gumtree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

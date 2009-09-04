@@ -1,59 +1,87 @@
 // !$*UTF8*$!
 {
-	1D3623240D0F684500981E51 /* GumtreeSimpleAppDelegate.h */ = {
+	1D3623240D0F684500981E51 /* GumtreeAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 523}}";
-			sepNavSelRange = "{512, 0}";
-			sepNavVisRange = "{0, 520}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 549}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{0, 484}";
 		};
 	};
-	1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */ = {
+	1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {950, 502}}";
-			sepNavSelRange = "{405, 0}";
-			sepNavVisRange = "{0, 650}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 549}}";
+			sepNavSelRange = "{517, 0}";
+			sepNavVisRange = "{0, 620}";
 		};
 	};
-	1D6058900D05DD3D006BFB54 /* GumtreeSimple */ = {
+	1D6058900D05DD3D006BFB54 /* Gumtree */ = {
 		activeExec = 0;
 		executables = (
-			A73F218C103BF97300326BB7 /* GumtreeSimple */,
+			A73F218C103BF97300326BB7 /* Gumtree */,
 		);
 	};
-	28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */ = {
+	2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 546}}";
-			sepNavSelRange = "{303, 0}";
-			sepNavVisRange = "{0, 434}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 2716}}";
+			sepNavSelRange = "{7903, 0}";
+			sepNavVisRect = "{{0, 2167}, {1090, 549}}";
 		};
 	};
-	28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */ = {
+	28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {920, 994}}";
-			sepNavSelRange = "{698, 0}";
-			sepNavVisRange = "{424, 1438}";
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 2632}}";
+			sepNavSelRange = "{114, 8}";
+			sepNavVisRect = "{{0, 0}, {1090, 549}}";
+		};
+	};
+	28D7ACF60DDB3853001CB0EB /* GumtreeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 549}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{0, 416}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 952}}";
+			sepNavSelRange = "{901, 0}";
+			sepNavVisRange = "{31, 1367}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = A73F218C103BF97300326BB7 /* GumtreeSimple */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* GumtreeSimple */;
+		activeExecutable = A73F218C103BF97300326BB7 /* Gumtree */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Gumtree */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* GumtreeSimple */,
+			1D6058900D05DD3D006BFB54 /* Gumtree */,
 		);
 		breakpoints = (
 		);
 		codeSenseManager = A73F219D103BF97B00326BB7 /* Code sense */;
 		executables = (
-			A73F218C103BF97300326BB7 /* GumtreeSimple */,
+			A73F218C103BF97300326BB7 /* Gumtree */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					780,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					742,
+					892,
 					20,
 					48,
 					43,
@@ -70,53 +98,77 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 273776833;
-			PBXWorkspaceStateSaveDate = 273776833;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					852,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273790278;
+			PBXWorkspaceStateSaveDate = 273790278;
 		};
 		perUserProjectItems = {
 			A708115010502A4400F7C8FE /* PBXTextBookmark */ = A708115010502A4400F7C8FE /* PBXTextBookmark */;
 			A708115110502A4400F7C8FE /* PBXTextBookmark */ = A708115110502A4400F7C8FE /* PBXTextBookmark */;
 			A708115310502A4400F7C8FE /* PBXTextBookmark */ = A708115310502A4400F7C8FE /* PBXTextBookmark */;
-			A708117310502C1C00F7C8FE /* PBXTextBookmark */ = A708117310502C1C00F7C8FE /* PBXTextBookmark */;
 			A708117710502C1C00F7C8FE /* PBXTextBookmark */ = A708117710502C1C00F7C8FE /* PBXTextBookmark */;
 			A708117810502C1C00F7C8FE /* PBXTextBookmark */ = A708117810502C1C00F7C8FE /* PBXTextBookmark */;
 			A708117910502C1C00F7C8FE /* PBXTextBookmark */ = A708117910502C1C00F7C8FE /* PBXTextBookmark */;
 			A708117C10502C1C00F7C8FE /* PBXTextBookmark */ = A708117C10502C1C00F7C8FE /* PBXTextBookmark */;
 			A70811941051029100F7C8FE /* PBXTextBookmark */ = A70811941051029100F7C8FE /* PBXTextBookmark */;
-			A70811A7105122B400F7C8FE /* PBXTextBookmark */ = A70811A7105122B400F7C8FE /* PBXTextBookmark */;
 			A708123E10512EC000F7C8FE /* PBXTextBookmark */ = A708123E10512EC000F7C8FE /* PBXTextBookmark */;
 			A70812511051316C00F7C8FE /* PBXTextBookmark */ = A70812511051316C00F7C8FE /* PBXTextBookmark */;
 			A70812751051338800F7C8FE /* PBXTextBookmark */ = A70812751051338800F7C8FE /* PBXTextBookmark */;
 			A70812871051347000F7C8FE /* PBXTextBookmark */ = A70812871051347000F7C8FE /* PBXTextBookmark */;
-			A7081295105134C000F7C8FE /* PBXTextBookmark */ = A7081295105134C000F7C8FE /* PBXTextBookmark */;
-			A70812CD1051358B00F7C8FE /* PBXTextBookmark */ = A70812CD1051358B00F7C8FE /* PBXTextBookmark */;
+			A70C99AA1051AFFA00A07DF2 /* PBXTextBookmark */ = A70C99AA1051AFFA00A07DF2 /* PBXTextBookmark */;
+			A70C99AB1051AFFA00A07DF2 /* PBXTextBookmark */ = A70C99AB1051AFFA00A07DF2 /* PBXTextBookmark */;
+			A70C99AC1051AFFA00A07DF2 /* PBXTextBookmark */ = A70C99AC1051AFFA00A07DF2 /* PBXTextBookmark */;
+			A70C99AD1051AFFA00A07DF2 /* PBXTextBookmark */ = A70C99AD1051AFFA00A07DF2 /* PBXTextBookmark */;
+			A70C9A081051B43300A07DF2 /* PBXTextBookmark */ = A70C9A081051B43300A07DF2 /* PBXTextBookmark */;
+			A70C9A091051B43300A07DF2 /* PBXTextBookmark */ = A70C9A091051B43300A07DF2 /* PBXTextBookmark */;
+			A70C9A0C1051B43300A07DF2 /* PlistBookmark */ = A70C9A0C1051B43300A07DF2 /* PlistBookmark */;
 			A73F2221103C1DAA00326BB7 /* PBXTextBookmark */ = A73F2221103C1DAA00326BB7 /* PBXTextBookmark */;
 			A73F2223103C1DAA00326BB7 /* PBXTextBookmark */ = A73F2223103C1DAA00326BB7 /* PBXTextBookmark */;
 			A73F2224103C1DAA00326BB7 /* PBXTextBookmark */ = A73F2224103C1DAA00326BB7 /* PBXTextBookmark */;
-			A79B16141051814000D6F2A2 /* PBXTextBookmark */ = A79B16141051814000D6F2A2 /* PBXTextBookmark */;
-			A79B16151051814000D6F2A2 /* PBXTextBookmark */ = A79B16151051814000D6F2A2 /* PBXTextBookmark */;
-			A79B16161051814000D6F2A2 /* PBXTextBookmark */ = A79B16161051814000D6F2A2 /* PBXTextBookmark */;
 			A79B161C1051818300D6F2A2 /* PBXTextBookmark */ = A79B161C1051818300D6F2A2 /* PBXTextBookmark */;
 			A79B161D1051818300D6F2A2 /* PBXTextBookmark */ = A79B161D1051818300D6F2A2 /* PBXTextBookmark */;
 			A79B161E1051818300D6F2A2 /* PBXTextBookmark */ = A79B161E1051818300D6F2A2 /* PBXTextBookmark */;
-			A79B161F1051818300D6F2A2 /* PBXTextBookmark */ = A79B161F1051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16201051818300D6F2A2 /* PBXTextBookmark */ = A79B16201051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16211051818300D6F2A2 /* PBXTextBookmark */ = A79B16211051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16221051818300D6F2A2 /* PBXTextBookmark */ = A79B16221051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16231051818300D6F2A2 /* PBXTextBookmark */ = A79B16231051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16241051818300D6F2A2 /* PBXTextBookmark */ = A79B16241051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16251051818300D6F2A2 /* PBXTextBookmark */ = A79B16251051818300D6F2A2 /* PBXTextBookmark */;
-			A79B16291051823000D6F2A2 /* PBXTextBookmark */ = A79B16291051823000D6F2A2 /* PBXTextBookmark */;
+			A7BCA7C51051B541007BA12C /* PlistBookmark */ = A7BCA7C51051B541007BA12C /* PlistBookmark */;
+			A7BCA7C61051B541007BA12C /* PBXTextBookmark */ = A7BCA7C61051B541007BA12C /* PBXTextBookmark */;
+			A7BCA7CA1051B541007BA12C /* PBXTextBookmark */ = A7BCA7CA1051B541007BA12C /* PBXTextBookmark */;
 		};
 		sourceControlManager = A73F219C103BF97B00326BB7 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	32CA4F630368D1EE00C91783 /* GumtreeSimple_Prefix.pch */ = {
+	32CA4F630368D1EE00C91783 /* Gumtree_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {871, 423}}";
-			sepNavSelRange = "{194, 0}";
-			sepNavVisRange = "{0, 195}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 549}}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRange = "{0, 183}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Gumtree-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 549}}";
+			sepNavSelRange = "{909, 0}";
+			sepNavVisRect = "{{0, 0}, {1090, 549}}";
 		};
 	};
 	A708115010502A4400F7C8FE /* PBXTextBookmark */ = {
@@ -151,9 +203,9 @@
 	};
 	A708115C10502A9B00F7C8FE /* GumtreeCategory.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 695}}";
-			sepNavSelRange = "{434, 0}";
-			sepNavVisRange = "{0, 513}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 549}}";
+			sepNavSelRange = "{428, 0}";
+			sepNavVisRange = "{0, 507}";
 		};
 	};
 	A708115D10502A9B00F7C8FE /* GumtreeCategory.m */ = {
@@ -178,24 +230,14 @@
 			sepNavWindowFrame = "{{15, 312}, {1035, 861}}";
 		};
 	};
-	A708117310502C1C00F7C8FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* GumtreeSimple_Prefix.pch */;
-		name = "GumtreeSimple_Prefix.pch: 8";
-		rLen = 0;
-		rLoc = 194;
-		rType = 0;
-		vrLen = 195;
-		vrLoc = 0;
-	};
 	A708117710502C1C00F7C8FE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* GumtreeSimple_Prefix.pch */;
+		fRef = 32CA4F630368D1EE00C91783 /* Gumtree_Prefix.pch */;
 		name = "GumtreeSimple_Prefix.pch: 8";
 		rLen = 0;
-		rLoc = 194;
+		rLoc = 171;
 		rType = 0;
-		vrLen = 195;
+		vrLen = 183;
 		vrLoc = 0;
 	};
 	A708117810502C1C00F7C8FE /* PBXTextBookmark */ = {
@@ -203,7 +245,7 @@
 		fRef = A708115C10502A9B00F7C8FE /* GumtreeCategory.h */;
 		name = "GumtreeCategory.h: 11";
 		rLen = 0;
-		rLoc = 189;
+		rLoc = 183;
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 0;
@@ -213,7 +255,7 @@
 		fRef = A708115D10502A9B00F7C8FE /* GumtreeCategory.m */;
 		name = "GumtreeCategory.m: 14";
 		rLen = 0;
-		rLoc = 217;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 255;
 		vrLoc = 0;
@@ -238,77 +280,119 @@
 		vrLen = 243;
 		vrLoc = 0;
 	};
-	A70811A7105122B400F7C8FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A708115C10502A9B00F7C8FE /* GumtreeCategory.h */;
-		name = "GumtreeCategory.h: 21";
-		rLen = 0;
-		rLoc = 434;
-		rType = 0;
-		vrLen = 513;
-		vrLoc = 0;
-	};
 	A708123E10512EC000F7C8FE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */;
+		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeViewController.h */;
 		name = "GumtreeSimpleViewController.h: 12";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 14;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
 	};
 	A70812511051316C00F7C8FE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* GumtreeSimpleAppDelegate.h */;
+		fRef = 1D3623240D0F684500981E51 /* GumtreeAppDelegate.h */;
 		name = "GumtreeSimpleAppDelegate.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 520;
+		vrLen = 484;
 		vrLoc = 0;
 	};
 	A70812751051338800F7C8FE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */;
+		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */;
 		name = "GumtreeSimpleViewController.m: 14";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 318;
 		rType = 0;
 		vrLen = 907;
 		vrLoc = 0;
 	};
 	A70812871051347000F7C8FE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */;
+		fRef = 1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */;
 		name = "GumtreeSimpleAppDelegate.m: 22";
 		rLen = 0;
-		rLoc = 405;
+		rLoc = 375;
 		rType = 0;
-		vrLen = 825;
+		vrLen = 620;
 		vrLoc = 0;
 	};
-	A7081295105134C000F7C8FE /* PBXTextBookmark */ = {
+	A70C99AA1051AFFA00A07DF2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* GumtreeSimpleAppDelegate.h */;
-		name = "GumtreeSimpleAppDelegate.h: 19";
+		fRef = 1D3623240D0F684500981E51 /* GumtreeAppDelegate.h */;
+		name = "GumtreeAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 512;
+		rLoc = 448;
 		rType = 0;
-		vrLen = 520;
+		vrLen = 484;
 		vrLoc = 0;
 	};
-	A70812CD1051358B00F7C8FE /* PBXTextBookmark */ = {
+	A70C99AB1051AFFA00A07DF2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* GumtreeSimpleAppDelegate.m */;
-		name = "GumtreeSimpleAppDelegate.m: 23";
+		fRef = 1D3623250D0F684500981E51 /* GumtreeAppDelegate.m */;
+		name = "GumtreeAppDelegate.m: 23";
 		rLen = 0;
-		rLoc = 547;
+		rLoc = 517;
 		rType = 0;
-		vrLen = 650;
+		vrLen = 620;
 		vrLoc = 0;
 	};
-	A73F218C103BF97300326BB7 /* GumtreeSimple */ = {
+	A70C99AC1051AFFA00A07DF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeViewController.h */;
+		name = "GumtreeViewController.h: 12";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 416;
+		vrLoc = 0;
+	};
+	A70C99AD1051AFFA00A07DF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeViewController.m */;
+		name = "GumtreeViewController.m: 29";
+		rLen = 0;
+		rLoc = 901;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 31;
+	};
+	A70C9A081051B43300A07DF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Gumtree_Prefix.pch */;
+		name = "Gumtree_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 183;
+		vrLoc = 0;
+	};
+	A70C9A091051B43300A07DF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A708115C10502A9B00F7C8FE /* GumtreeCategory.h */;
+		name = "GumtreeCategory.h: 21";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 0;
+	};
+	A70C9A0C1051B43300A07DF2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Gumtree-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/Oliver/Miscellany/Gumtree/Gumtree-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	A73F218C103BF97300326BB7 /* Gumtree */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -328,7 +412,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = GumtreeSimple;
+		name = Gumtree;
 		savedGlobals = {
 		};
 		sourceDirectories = (
@@ -396,42 +480,12 @@
 		vrLen = 275;
 		vrLoc = 0;
 	};
-	A79B16141051814000D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */;
-		name = "GumtreeSimpleViewController.m: 20";
-		rLen = 0;
-		rLoc = 1421;
-		rType = 0;
-		vrLen = 973;
-		vrLoc = 162;
-	};
-	A79B16151051814000D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */;
-		name = "GumtreeSimpleViewController.h: 18";
-		rLen = 0;
-		rLoc = 428;
-		rType = 0;
-		vrLen = 434;
-		vrLoc = 0;
-	};
-	A79B16161051814000D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A708116410502BD000F7C8FE /* CategoryDataController.m */;
-		name = "CategoryDataController.m: 73";
-		rLen = 0;
-		rLoc = 1850;
-		rType = 0;
-		vrLen = 1055;
-		vrLoc = 801;
-	};
 	A79B161C1051818300D6F2A2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = A708116410502BD000F7C8FE /* CategoryDataController.m */;
 		name = "CategoryDataController.m: 73";
 		rLen = 0;
-		rLoc = 1850;
+		rLoc = 1844;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 0;
@@ -441,9 +495,9 @@
 		fRef = A708116310502BD000F7C8FE /* CategoryDataController.h */;
 		name = "CategoryDataController.h: 12";
 		rLen = 0;
-		rLoc = 265;
+		rLoc = 259;
 		rType = 0;
-		vrLen = 385;
+		vrLen = 379;
 		vrLoc = 0;
 	};
 	A79B161E1051818300D6F2A2 /* PBXTextBookmark */ = {
@@ -451,89 +505,40 @@
 		fRef = A708115D10502A9B00F7C8FE /* GumtreeCategory.m */;
 		name = "GumtreeCategory.m: 16";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 280;
 		rType = 0;
-		vrLen = 385;
+		vrLen = 379;
 		vrLoc = 0;
 	};
-	A79B161F1051818300D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */;
-		name = "GumtreeSimpleViewController.h: 12";
+	A7BCA7C51051B541007BA12C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Gumtree-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Oliver/Miscellany/Gumtree/Gumtree-Info.plist";
 		rLen = 0;
-		rLoc = 303;
-		rType = 0;
-		vrLen = 434;
-		vrLoc = 0;
+		rLoc = 2147483647;
 	};
-	A79B16201051818300D6F2A2 /* PBXTextBookmark */ = {
+	A7BCA7C61051B541007BA12C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */;
-		name = "GumtreeSimpleViewController.m: 21";
-		rLen = 21;
-		rLoc = 544;
-		rType = 0;
-		vrLen = 1456;
-		vrLoc = 206;
-	};
-	A79B16211051818300D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */;
-		name = "GumtreeSimpleViewController.m: 21";
-		rLen = 21;
-		rLoc = 544;
-		rType = 0;
-		vrLen = 1456;
-		vrLoc = 206;
-	};
-	A79B16221051818300D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A708116410502BD000F7C8FE /* CategoryDataController.m */;
-		name = "CategoryDataController.m: 73";
+		fRef = 2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */;
+		name = "GumtreeViewController.xib: 189";
 		rLen = 0;
-		rLoc = 1850;
+		rLoc = 7903;
 		rType = 0;
-		vrLen = 880;
-		vrLoc = 0;
+		vrLen = 1559;
+		vrLoc = 6500;
 	};
-	A79B16231051818300D6F2A2 /* PBXTextBookmark */ = {
+	A7BCA7CA1051B541007BA12C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = A708116310502BD000F7C8FE /* CategoryDataController.h */;
-		name = "CategoryDataController.h: 12";
+		fRef = 2899E5210DE3E06400AC0155 /* GumtreeViewController.xib */;
+		name = "GumtreeViewController.xib: 189";
 		rLen = 0;
-		rLoc = 265;
+		rLoc = 7903;
 		rType = 0;
-		vrLen = 385;
-		vrLoc = 0;
-	};
-	A79B16241051818300D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A708115D10502A9B00F7C8FE /* GumtreeCategory.m */;
-		name = "GumtreeCategory.m: 16";
-		rLen = 0;
-		rLoc = 286;
-		rType = 0;
-		vrLen = 385;
-		vrLoc = 0;
-	};
-	A79B16251051818300D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* GumtreeSimpleViewController.h */;
-		name = "GumtreeSimpleViewController.h: 12";
-		rLen = 0;
-		rLoc = 303;
-		rType = 0;
-		vrLen = 434;
-		vrLoc = 0;
-	};
-	A79B16291051823000D6F2A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* GumtreeSimpleViewController.m */;
-		name = "GumtreeSimpleViewController.m: 23";
-		rLen = 0;
-		rLoc = 698;
-		rType = 0;
-		vrLen = 1438;
-		vrLoc = 424;
+		vrLen = 1559;
+		vrLoc = 6500;
 	};
 }

@@ -1,15 +1,15 @@
 //
-//  GumtreeSimpleAppDelegate.m
-//  GumtreeSimple
+//  GumtreeAppDelegate.m
+//  Gumtree
 //
 //  Created by Oliver Beattie on 19/08/2009.
 //  Copyright __MyCompanyName__ 2009. All rights reserved.
 //
 
-#import "GumtreeSimpleAppDelegate.h"
-#import "GumtreeSimpleViewController.h"
+#import "GumtreeAppDelegate.h"
+#import "GumtreeViewController.h"
 
-@implementation GumtreeSimpleAppDelegate
+@implementation GumtreeAppDelegate
 
 @synthesize window;
 @synthesize viewController;
