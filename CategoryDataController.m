@@ -71,25 +71,4 @@
 		[categoryList release];
 		[category release];
 	}
-	
-	#pragma mark UITableViewDataSource methods
-	- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSIndexPath *)section {
-		/* We're not using sections, so just return the number of categories */
-		return [data count];
-	}
-	
-	- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-		static NSString *cellIdentifier = @"GumtreeCategoryCell";
-		
-		// Dequeue or create a table cell for the category
-		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-		if (cell == nil) {
-			cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
-			cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-		}
-		
-		GumtreeCategory *categoryAtIndex = [data objectAtIndex:indexPath.row];
-		cell.textLabel.text = categoryAtIndex.name;
-		return cell;
-	}
 @end

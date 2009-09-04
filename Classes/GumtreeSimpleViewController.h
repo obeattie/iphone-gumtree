@@ -12,4 +12,8 @@
 	@interface GumtreeSimpleViewController : UIViewController <UITableViewDataSource> {
 		CategoryDataController *dataController;
 	}
+	
+	@property (nonatomic, retain) CategoryDataController *dataController;
+	
+	
 @end

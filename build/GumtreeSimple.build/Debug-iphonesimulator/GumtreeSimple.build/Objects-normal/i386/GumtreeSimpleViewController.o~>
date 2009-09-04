@@ -1,4 +1,0 @@
-/Users/Oliver/GumtreeSimple/Classes/GumtreeSimpleViewController.m:46: warning: incomplete implementation of class 'GumtreeSimpleViewController'
-/Users/Oliver/GumtreeSimple/Classes/GumtreeSimpleViewController.m:46: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
-/Users/Oliver/GumtreeSimple/Classes/GumtreeSimpleViewController.m:46: warning: method definition for '-tableView:numberOfRowsInSection:' not found
-/Users/Oliver/GumtreeSimple/Classes/GumtreeSimpleViewController.m:46: warning: class 'GumtreeSimpleViewController' does not fully implement the 'UITableViewDataSource' protocol

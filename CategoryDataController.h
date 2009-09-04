@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class GumtreeCategory;
-	@interface CategoryDataController : NSObject <UITableViewDataSource> {
+	@interface CategoryDataController : NSObject {
 		NSMutableArray *data;
 	}
 	
