@@ -9,11 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @class GumtreeCategory;
-	@interface CategoryDataController : NSObject {
-		NSMutableArray *data;
-	}
-	
-	@property (nonatomic, copy, readwrite) NSMutableArray *data;
-	
-	- (void)populate;
+    @interface CategoryDataController : NSObject <UITableViewDataSource> {
+        NSMutableArray *data;
+        
+        @private
+            NSArray *cachedTopLevelCategories;
+    }
+    
+    @property (nonatomic, copy) NSMutableArray *data;
+    @property (nonatomic, retain) NSArray *cachedTopLevelCategories;
+    
+    - (void) populate;
+    - (NSArray *) topLevelCategories;
+    - (GumtreeCategory *)categoryAtIndexPath:(NSIndexPath *)indexPath;
 @end

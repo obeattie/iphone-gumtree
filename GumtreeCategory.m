@@ -11,13 +11,13 @@
 
 @implementation GumtreeCategory
 
-	@synthesize name, identifier, browsable, parent;
+    @synthesize name, identifier, browsable, parent;
 
-	-(void) dealloc {
-		[name release];
-		[identifier release];
-		[parent release];
-		return [super dealloc];
-	};
+    -(void) dealloc {
+        [name release];
+        [identifier release];
+        [parent release];
+        return [super dealloc];
+    };
 
 @end

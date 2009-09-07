@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @class CategoryDataController;
-	@interface GumtreeViewController : UIViewController <UITableViewDataSource> {
-		CategoryDataController *dataController;
-	}
-	
-	@property (nonatomic, retain) CategoryDataController *dataController;
-	
-	
+    @interface GumtreeViewController : UIViewController <UITableViewDataSource> {
+        CategoryDataController *dataController;
+    }
+    
+    @property (nonatomic, retain) CategoryDataController *dataController;
+    
+    
 @end

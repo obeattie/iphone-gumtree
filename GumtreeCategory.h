@@ -10,10 +10,10 @@
 
 
 @interface GumtreeCategory : NSObject {
-	NSString *name;
-	NSString *identifier;
-	BOOL browsable;
-	GumtreeCategory *parent;
+    NSString *name;
+    NSString *identifier;
+    BOOL browsable;
+    GumtreeCategory *parent;
 }
 
 @property (nonatomic, retain) NSString *name;
